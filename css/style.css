@@ -1,0 +1,35 @@
+@import url(bootstrap.min.css);
+@import url(bootstrap-theme.min.css);
+header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+  margin-top: 20px; }
+  header .navbar {
+    border: none; }
+  header .navbar-default {
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none; }
+    header .navbar-default .navbar-nav {
+      margin: 7px -15px;
+      float: right; }
+    header .navbar-default .navbar-nav > li > a {
+      color: #ffffff;
+      font-size: 16px;
+      font-family: header .navbar-default .navbar-nav > li > a font-main;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      line-height: 14px; }
+
+.main {
+  background-image: url(../images/b1.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative; }
+
+/*# sourceMappingURL=style.css.map */
