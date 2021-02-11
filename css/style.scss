@@ -3,34 +3,97 @@
 
 
 
-header {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  top: 0;
-  margin-top: 20px;
-.navbar {
-border: none;
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a:hover, a:visited, a{
+  text-decoration: none;
+}
+h4{
+  font-size: 14px;
+  color: #008ed6;
+  text-transform: uppercase;
+  margin-top: 65px;
+  font-weight: 700;
+}
+h2{
+  font-size: 36px;
+  color: #1a1a1a;
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-top: 0;
 }
 
-  .navbar-default {
-    background-image: none;
-    background-color: transparent;
-    box-shadow: none;
-
-    .navbar-nav {
-      margin: 7px -15px;
-      float: right;
-    }
-    .navbar-nav > li > a {
-      color: #ffffff;
-      font-size: 16px;
-      font-family: & font-main;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      line-height: 14px;
-    }
-  }
+/*header area*/
+.top-header{
+  background:transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+  -moz-transition: all .7s ease 0s;
+  -o-transition: all .7s ease 0s;
+  -ms-transition: all .7s ease 0s;
+}
+.top-header image.logo{
+  margin-top: 0;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+  -moz-transition: all .7s ease 0s;
+  -o-transition: all .7s ease 0s;
+  -ms-transition: all .7s ease 0s;
+}
+.navbar-default {
+  background: transparent;
+  border-color: transparent;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.nav-bar{
+  margin-top: 28px;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+  -moz-transition: all .7s ease 0s;
+  -o-transition: all .7s ease 0s;
+  -ms-transition: all .7s ease 0s;
+}
+.navbar-toggle span{
+  color: #fff;
+}
+ul.nav{
+  margin: 0;
+  padding: 0;
+}
+.navbar-default .navbar-nav>li>a {
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+  -moz-transition: all .7s ease 0s;
+  -o-transition: all .7s ease 0s;
+  -ms-transition: all .7s ease 0s;
+  padding: 8px 0;
+  margin:0 15px;
+  font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #fff;
+  border-bottom: 2px solid #008ed6;
+}
+.navbar-default .navbar-nav>li>a.active{
+  color: #fff;
+  border-bottom: 2px solid #008ed6;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
 }
 
 
