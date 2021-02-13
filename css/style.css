@@ -99,49 +99,56 @@ ul.nav {
   align-items: center;
   overflow: hidden;
   position: relative; }
-  .main h3 {
-    font-size: 14px;
-    color: #008ed6;
-    text-transform: uppercase;
-    margin-top: 160px;
-    font-weight: 700; }
-  .main h1 {
-    font-size: 14px;
-    color: #fff; }
-  .main p {
-    font-size: 18px;
-    color: #999999;
-    margin-top: 25px;
-    line-height: 2;
-    font-weight: 600; }
-  .main .download-btn {
-    width: 160px;
-    height: 50px;
-    border-radius: 4px;
-    border: 1px solid #444348;
-    text-transform: uppercase;
-    color: #fff;
-    background: transparent;
-    font-size: 14px;
-    margin-top: 60px;
-    margin-bottom: 105px;
-    font-weight: 600; }
-  .main .featurs-btn {
-    width: 100px;
-    height: 50px;
-    border-radius: 4px;
-    border: solid 1px #444348;
-    text-transform: uppercase;
-    color: #ffffff;
-    background: transparent;
-    font-size: 14px;
-    margin-top: 60px;
-    margin-bottom: 105px;
-    font-weight: 600; }
-  .main .banner-img {
-    position: relative; }
-  .main .banner img {
-    position: absolute;
-    margin-top: 125px; }
+
+h3 {
+  font-size: 14px;
+  color: #008ed6;
+  text-transform: uppercase;
+  margin-top: 160px;
+  font-weight: 700; }
+
+h1 {
+  font-size: 14px;
+  color: #fff; }
+
+p {
+  font-size: 18px;
+  color: #999999;
+  margin-top: 25px;
+  line-height: 2;
+  font-weight: 600; }
+
+.download-btn {
+  width: 160px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #444348;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  font-size: 14px;
+  margin-top: 60px;
+  margin-bottom: 105px;
+  font-weight: 600; }
+
+.featurs-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  border: solid 1px #444348;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: transparent;
+  font-size: 14px;
+  margin-top: 60px;
+  margin-bottom: 105px;
+  font-weight: 600; }
+
+.banner-img {
+  position: relative; }
+
+.banner img {
+  position: absolute;
+  margin-top: 125px; }
 
 /*# sourceMappingURL=style.css.map */
