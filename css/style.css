@@ -126,5 +126,22 @@ ul.nav {
     margin-top: 60px;
     margin-bottom: 105px;
     font-weight: 600; }
+  .main .featurs-btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px #444348;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    font-size: 14px;
+    margin-top: 60px;
+    margin-bottom: 105px;
+    font-weight: 600; }
+  .main .banner-img {
+    position: relative; }
+  .main .banner img {
+    position: absolute;
+    margin-top: 125px; }
 
 /*# sourceMappingURL=style.css.map */
