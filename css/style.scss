@@ -97,11 +97,14 @@ ul.nav{
 }
 
 
-.banner{
-  background: url(../images/banner.jpg) no-repeat center;
-  overflow: hidden;
-  -webkit-background-size: cover;
+.main {
+  background-image: url(../images/b1.png);
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
 }
   h3 {
     font-size: 14px;
