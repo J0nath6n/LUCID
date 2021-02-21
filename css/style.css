@@ -38,7 +38,7 @@ h2 {
   -o-transition: all .7s ease 0s;
   -ms-transition: all .7s ease 0s; }
 
-.top-header image.logo {
+.top-header img.logo {
   margin-top: 0;
   transition: all .7s ease 0s;
   -webkit-transition: all .7s ease 0s;
@@ -47,10 +47,9 @@ h2 {
   -ms-transition: all .7s ease 0s; }
 
 .navbar-default {
-  background: transparent;
+  background-color: transparent;
   border-color: transparent;
-  margin-bottom: 0;
-  text-decoration: none; }
+  margin-bottom: 0; }
 
 .nav-bar {
   margin-top: 28px;
@@ -91,14 +90,11 @@ ul.nav {
 .navbar-default .navbar-toggle {
   border-color: #fff; }
 
-.main {
-  background-image: url(../images/b1.png);
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+.banner {
+  background: url(../images/banner.jpg) no-repeat center;
   overflow: hidden;
-  position: relative; }
+  -webkit-background-size: cover;
+  background-size: cover; }
 
 h3 {
   font-size: 14px;
