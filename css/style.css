@@ -47,9 +47,10 @@ h2 {
   -ms-transition: all .7s ease 0s; }
 
 .navbar-default {
-  background-color: transparent;
+  background: transparent;
   border-color: transparent;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  text-decoration: none; }
 
 .nav-bar {
   margin-top: 28px;
