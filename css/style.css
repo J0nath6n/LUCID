@@ -28,7 +28,6 @@ h2 {
 
 /*header area*/
 .top-header {
-  background: transparent;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -49,8 +48,7 @@ h2 {
 .navbar-default {
   background: transparent;
   border-color: transparent;
-  margin-bottom: 0;
-  text-decoration: none; }
+  margin-bottom: 0; }
 
 .nav-bar {
   margin-top: 28px;
@@ -91,14 +89,12 @@ ul.nav {
 .navbar-default .navbar-toggle {
   border-color: #fff; }
 
+/*main-banner*/
 .main {
-  background-image: url(../images/b1.png);
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  background: url(../images/banner.jpg) no-repeat center;
   overflow: hidden;
-  position: relative; }
+  -webkit-background-size: cover;
+  background-size: cover; }
 
 h3 {
   font-size: 14px;
@@ -185,5 +181,28 @@ p {
   font-size: 18px;
   color: #999999;
   margin-bottom: 70px; }
+
+/*details*/
+.details-phone {
+  margin-top: 50px; }
+
+.details p {
+  font-size: 18px;
+  color: #999999;
+  margin: 30px 0; }
+
+.details ul {
+  margin: 0;
+  padding: 0; }
+
+.details ul li {
+  font-size: 18px;
+  color: #1b1b1b; }
+
+.details ul li i.fa {
+  font-size: 20px;
+  color: #00bed6;
+  height: 30px;
+  width: 30px; }
 
 /*# sourceMappingURL=style.css.map */
