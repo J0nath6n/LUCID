@@ -90,11 +90,14 @@ ul.nav {
 .navbar-default .navbar-toggle {
   border-color: #fff; }
 
-.banner {
-  background: url(../images/banner.jpg) no-repeat center;
+.main {
+  background-image: url(../images/b1.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
   overflow: hidden;
-  -webkit-background-size: cover;
-  background-size: cover; }
+  position: relative; }
 
 h3 {
   font-size: 14px;
