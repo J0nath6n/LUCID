@@ -258,5 +258,19 @@ p {
   padding-top: 12px; }
 
 /*download*/
+.download {
+  background: #15141a; }
+
+.download p {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 300;
+  padding: 65px 0; }
+
+.download button {
+  margin: 65px 0; }
+
+.download button.download-btn {
+  margin-left: 15px; }
 
 /*# sourceMappingURL=style.css.map */

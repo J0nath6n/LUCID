@@ -271,11 +271,11 @@ p {
   -webkit-background-size: cover;
   background-size: cover;
 }
-.pricing-slide h2 {
+.pricing-slide h2{
   margin-bottom: 10px;
   color: #fff;
 }
-.pricing-slide p {
+.pricing-slide p{
   font-size: 24px;
   color: #fff;
   font-style: italic;
@@ -283,7 +283,7 @@ p {
   margin-top: 60px;
   margin-bottom: 25px;
 }
-.item img {
+.item img{
   float: left;
   margin-right: 20px;
   margin-bottom: 200px;
@@ -296,7 +296,23 @@ p {
 }
 .item h6{
   font-size: 16px;
-  color:#fff;
+  color: #fff;
   padding-top: 12px;
 }
 /*download*/
+
+.download {
+  background:#15141a;
+}
+.download p {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 300;
+  padding: 65px 0;
+}
+.download button{
+  margin: 65px 0;
+}
+.download button.download-btn{
+  margin-left: 15px;
+}
