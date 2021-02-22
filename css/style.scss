@@ -316,3 +316,26 @@ p {
 .download button.download-btn{
   margin-left: 15px;
 }
+
+/*price-plan*/
+.price-table img {
+  margin-bottom: 60px;
+}
+.single-table{
+  border: 1px solid #e0e0e0;
+  margin-bottom: 60px;
+}
+.single-table h3{
+  font-size: 24px;
+  color: #1a1a1a;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 18px;
+  line-height: 1;
+  margin-top: 0;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  -webkit-transition:all .5s ease 0s;
+  -moz-transition:all .5s ease 0s;
+  -o-transition:all .5s ease 0s;
+  -ms-transition:all .5s ease 0s;
+}
