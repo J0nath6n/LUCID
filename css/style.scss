@@ -34,7 +34,8 @@ h2 {
 }
 
 /*header area*/
-.top-header {
+.top-header{
+  background:transparent;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -78,7 +79,7 @@ ul.nav {
   padding: 0;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
   font-size: 16px;
   color: #fff;
   text-transform: capitalize;
@@ -88,7 +89,7 @@ ul.nav {
   -o-transition: all .7s ease 0s;
   -ms-transition: all .7s ease 0s;
   padding: 8px 0;
-  margin: 0 15px;
+  margin:0 15px;
   font-weight: 600;
 }
 
@@ -339,3 +340,106 @@ p {
   -o-transition:all .5s ease 0s;
   -ms-transition:all .5s ease 0s;
 }
+.table-price {
+  position: relative;
+  border-bottom: 1px solid #e0e0e0;
+  display: block;
+  transition:all 5s ease 0s;
+  -webkit-transition:all .5s ease 0s;
+  -moz-transition:all .5s ease 0s;
+  -o-transition:all .5s ease 0s;
+  -ms-transition:all .5s ease 0s;
+}
+.table-price h5 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 17px;
+  transition:all .5s ease 0s;
+  -webkit-transition:all .5s ease 0s;
+  -moz-transition:all .5s ease 0s;
+  -o-transition:all .5s ease 0s;
+  -ms-transition:all .5s ease 0s;
+}
+.table-price h5 span{
+  position: absolute;
+  font-size: 25px;
+  top:21%;
+  left: 34%;
+  font-weight: 600;
+}
+.table-price p{
+  font-size: 18px;
+  color: #999999;
+  padding: 40px 20px;
+  margin-bottom: 0;
+  transition:all .5s ease 0s;
+  -webkit-transition:all .5s ease 0s;
+  -moz-transition:all .5s ease 0s;
+  -o-transition:all .5s ease 0s;
+  -ms-transition:all .5s ease 0s;
+}
+.table-description a{
+  color: #008ed6;
+  transition:all .5s ease 0s;
+  -webkit-transition:all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition:all .5s ease 0s;
+  -ms-transition:all .5s ease 0s;
+}
+.table-description button{
+  width: 160px;
+  height: 50px;
+  border:1px solid #e0e0e0;
+  color: #008ed6;
+  border-radius: 4px;
+  background: transparent;
+  margin-bottom: 30px;
+  font-weight: 700;
+  transition:all .5s ease 0s;
+  -webkit-transition:all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  -ms-transition: all .5s ease 0s;
+}
+.free h5 span{
+  left: 39%;
+}
+.business h3 {
+  color:#008ed6;
+}
+.business-price{
+  background: #008ed6;
+}
+.business-price p{
+  color: #fff;
+}
+.business button{
+  background: #008ed6;
+  color: #fff;
+  border: 0;
+}
+.business h5{
+  color: #fff;
+}
+.single-table:hover.single-table h3{
+  color: #fff;
+}
+.single-table:hover .table-description button{
+  background: #008ed6;
+  color: #fff;
+  border: 0;
+}
+.single-table:hover .table-price h5{
+  color: #fff;
+}
+.single-table:hover .table-price p{
+  color: #fff;
+}
+.single-table:hover .table-price{
+  background: #008ed6;
+}
+/*end section price-plan*/
