@@ -399,5 +399,75 @@ p {
   background: #008ed6; }
 
 /*end section price-plan*/
+/*contact*/
+.contact {
+  background: #ededed;
+  position: relative;
+  height: 700px; }
+
+.contact-heading img {
+  margin-bottom: 50px; }
+
+.contact i.fa {
+  color: #008ed6;
+  font-size: 20px;
+  padding: 20px; }
+
+.contact p {
+  font-size: 18px;
+  color: #999999;
+  line-height: 1; }
+
+.contact-form {
+  background: #15141a;
+  overflow: hidden;
+  z-index: 222;
+  position: absolute;
+  margin-top: 50px; }
+
+.contact-form-left .contact-form-right {
+  margin-top: 60px; }
+
+.contact-form-left input {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  background: #008ed6;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 40px; }
+
+/*end contact*/
+/*map*/
+.map {
+  width: 100%;
+  height: 370px;
+  pointer-events: none; }
+
+/*end map*/
+/*footer*/
+.footer {
+  background: #15141a; }
+
+.footer i.fa {
+  font-size: 15px;
+  padding: 20px;
+  color: #444348;
+  margin-top: 20px; }
+
+.footer i.fa:hover {
+  color: #008ed6; }
+
+.footer p {
+  font-size: 14px;
+  color: #444348;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px; }
+
+/*end footer*/
 
 /*# sourceMappingURL=style.css.map */
