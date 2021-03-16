@@ -49,7 +49,8 @@ h2 {
 .navbar-default {
   background: transparent;
   border-color: transparent;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  display: contents; }
 
 .nav-bar {
   margin-top: 28px;
