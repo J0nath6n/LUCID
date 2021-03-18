@@ -292,6 +292,7 @@ p {
   margin-top: 0;
   text-transform: uppercase;
   margin-bottom: 0;
+  transition: all .5s ease 0s;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -301,7 +302,7 @@ p {
   position: relative;
   border-bottom: 1px solid #e0e0e0;
   display: block;
-  transition: all 5s ease 0s;
+  transition: all .5s ease 0s;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -329,6 +330,17 @@ p {
   font-weight: 600; }
 
 .table-price p {
+  font-size: 18px;
+  color: #999999;
+  line-height: 1;
+  margin-bottom: 22px;
+  transition: all .5s ease 0s;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  -ms-transition: all .5s ease 0s; }
+
+.table-description p {
   font-size: 18px;
   color: #999999;
   padding: 40px 20px;
@@ -374,16 +386,11 @@ p {
 .business-price p {
   color: #fff; }
 
-.business button {
-  background: #008ed6;
-  color: #fff;
-  border: 0; }
-
 .business h5 {
   color: #fff; }
 
 .single-table:hover.single-table h3 {
-  color: #fff; }
+  color: #008ed6; }
 
 .single-table:hover .table-description button {
   background: #008ed6;

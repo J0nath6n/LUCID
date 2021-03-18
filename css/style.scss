@@ -336,22 +336,23 @@ p {
   margin-top: 0;
   text-transform: uppercase;
   margin-bottom: 0;
+  transition:all .5s ease 0s;
   -webkit-transition:all .5s ease 0s;
   -moz-transition:all .5s ease 0s;
   -o-transition:all .5s ease 0s;
   -ms-transition:all .5s ease 0s;
 }
-.table-price {
+.table-price{
   position: relative;
   border-bottom: 1px solid #e0e0e0;
   display: block;
-  transition:all 5s ease 0s;
+  transition:all .5s ease 0s;
   -webkit-transition:all .5s ease 0s;
   -moz-transition:all .5s ease 0s;
   -o-transition:all .5s ease 0s;
   -ms-transition:all .5s ease 0s;
 }
-.table-price h5 {
+.table-price h5{
   font-size: 60px;
   font-weight: 600;
   color: #1a1a1a;
@@ -368,11 +369,22 @@ p {
 .table-price h5 span{
   position: absolute;
   font-size: 25px;
-  top:21%;
+  top: 21%;
   left: 34%;
   font-weight: 600;
 }
 .table-price p{
+  font-size: 18px;
+  color: #999999;
+  line-height: 1;
+  margin-bottom: 22px;
+  transition:all .5s ease 0s;
+  -webkit-transition:all .5s ease 0s;
+  -moz-transition:all .5s ease 0s;
+  -o-transition:all .5s ease 0s;
+  -ms-transition:all .5s ease 0s;
+}
+.table-description p{
   font-size: 18px;
   color: #999999;
   padding: 40px 20px;
@@ -387,7 +399,7 @@ p {
   color: #008ed6;
   transition:all .5s ease 0s;
   -webkit-transition:all .5s ease 0s;
-  -moz-transition: all .5s ease 0s;
+  -moz-transition:all .5s ease 0s;
   -o-transition:all .5s ease 0s;
   -ms-transition:all .5s ease 0s;
 }
@@ -402,15 +414,15 @@ p {
   font-weight: 700;
   transition:all .5s ease 0s;
   -webkit-transition:all .5s ease 0s;
-  -moz-transition: all .5s ease 0s;
-  -o-transition: all .5s ease 0s;
-  -ms-transition: all .5s ease 0s;
+  -moz-transition:all .5s ease 0s;
+  -o-transition:all .5s ease 0s;
+  -ms-transition:all .5s ease 0s;
 }
 .free h5 span{
   left: 39%;
 }
-.business h3 {
-  color:#008ed6;
+.business h3{
+  color: #008ed6;
 }
 .business-price{
   background: #008ed6;
@@ -418,21 +430,17 @@ p {
 .business-price p{
   color: #fff;
 }
-.business button{
-  background: #008ed6;
-  color: #fff;
-  border: 0;
-}
+
 .business h5{
   color: #fff;
 }
 .single-table:hover.single-table h3{
-  color: #fff;
+  color: #008ed6;
 }
 .single-table:hover .table-description button{
   background: #008ed6;
   color: #fff;
-  border: 0;
+  border:0;
 }
 .single-table:hover .table-price h5{
   color: #fff;
