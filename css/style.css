@@ -119,7 +119,7 @@ p {
 .download-btn {
   width: 160px;
   height: 50px;
-  background: #008ed6;
+  background: #444348;
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
@@ -275,6 +275,19 @@ p {
 .download button.download-btn {
   margin-left: 15px; }
 
+.download-btn {
+  width: 160px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #444348;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  font-size: 14px;
+  margin-top: 60px;
+  margin-bottom: 105px;
+  font-weight: 600; }
+
 /*price-plan*/
 .price-table img {
   margin-bottom: 60px; }
@@ -376,18 +389,6 @@ p {
 
 .free h5 span {
   left: 39%; }
-
-.business h3 {
-  color: #008ed6; }
-
-.business-price {
-  background: #008ed6; }
-
-.business-price p {
-  color: #fff; }
-
-.business h5 {
-  color: #fff; }
 
 .single-table:hover.single-table h3 {
   color: #008ed6; }
